@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang = "id">
+<html lang="id">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taman baca ini keren sekali sangat ramah bagi penyandang tunanetra">
+  <meta property="og:title" content="taman baca">
   <title>Taman Baca</title>
 </head>
-
 <body>
 
   <!--
@@ -19,15 +22,15 @@
   Semua test akan merah di awal. Itu memang seharusnya.
 -->
 
-  <div class="header">
+  <header>
     <h1 class="judul-besar">Taman Baca RW 04</h1>
-    <div class="menu">
+    <nav class="menu">
       <a href="#koleksi">Koleksi</a>
       <a href="#jadwal">Jadwal</a>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <div class="isi">
+  <main class="isi">
 
     <h2 class="sub">Tentang Kami</h2>
     <p>Taman Baca RW 04 dibuka untuk warga sejak 2019.</p>
@@ -40,35 +43,39 @@
     </ul>
 
     <h2 class="sub">Koleksi</h2>
-    <img src="rak.jpg">
-    <img src="garis.png">
+    <img src="rak.jpg" alt="Rak berisi koleksi buku di Taman Baca RW 04">
+    <img src="garis.png" alt="">
 
-    <table>
-      <tr>
-        <td>Kategori</td>
-        <td>Jumlah</td>
-      </tr>
-      <tr>
-        <td>Novel</td>
-        <td>320</td>
-      </tr>
+    <table border="1">
+      <thead>
+        <tr>
+          <th scope="col">Kategori</th>
+          <th scope="col">Jumlah</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Novel</td>
+          <td>320</td>
+        </tr>
+      </tbody>
     </table>
 
-    <div class="berita">
-      Donasi buku anak dari SD Negeri 3 sudah kami terima.
-    </div>
+    <article class="berita">
+      <h3>Donasi buku anak dari SD Negeri 3 sudah kami terima.</h3>
+    </article>
 
-    <div class="berita">
-      Jadwal mendongeng bulan ini setiap Sabtu pagi.
-    </div>
+    <article class="berita">
+      <h3>Jadwal mendongeng bulan ini setiap Sabtu pagi.</h3>
+    </article>
 
-    <a href="https://maps.google.com">klik di sini</a>
+    <a href="https://maps.google.com" target="_blank" rel="noopener">Lihat lokasi kami di Google Maps</a>
 
-  </div>
+  </main>
 
-  <div class="footer">
+  <footer class="footer">
     Taman Baca RW 04
-  </div>
+  </footer>
 
 </body>
 
